@@ -1,0 +1,36 @@
+<html>
+    <header><!--Nesse html colocamos inline (dentro) o javascript-->
+        <title>JavaScriptNoHtml</title>
+        <!--Vai sair na tela do browser o escrito-->
+        <script lanquage = "Javascript">
+            var opcao = confirm("O senhor tem mais de 30 anos?")
+
+            if(opcao){
+                alert("Bem vindo maior de 30!")
+            }else{
+                alert("Não recomendado para menores de 30!")
+            }
+            var nome = "wender";
+            var dataNasc = 2004
+            var dataAtual = 2019
+            var idade;
+
+             document.write("<p style='color:#ff0000'>Aula de Javascript </p>");
+             document.write("Olá: " + nome);
+             alert("Ola seja bem vindo")
+
+             idade = dataAtual - dataNasc;
+             document.write("Idade: "+idade)
+             
+             var nome2;
+             //duas mensagens, uma será para vc escrever
+             nome = prompt("Por Gentileza o nome do senhor(a)","")//"pega o nome"
+             //agora o nome vem para o alerta
+             alert("Olá: " + nome);
+
+             </script>
+    </header>
+         <body>
+
+         </body>
+</html>

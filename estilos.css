@@ -1,0 +1,12 @@
+h1{
+    color: deepskyblue;
+    border: 2px solid beige;
+}
+button {
+    color: red;
+    font-size: 20pt;
+}
+p {
+    color: coral;
+    margin-left: 9px;
+}

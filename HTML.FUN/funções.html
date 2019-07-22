@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script language="javascript">
+      //função
+      function acender() {
+        document.getElementById('liquido').src = 'solido.jpg';
+      }
+      function apagar() {
+        document.getElementById('liquido').src = 'liquido.jpg';
+      }
+    </script>
+  </head>
+  <body>
+    <img
+      src="liquido.png"
+      width="600"
+      height="600"
+      id="solido"
+      onmousemove="solido()"
+      onmouseout="liquido()"
+    />
+  </body>
+</html>
